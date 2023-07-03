@@ -1,0 +1,22 @@
+﻿/**
+ * @File Config.hpp
+ * @Author dfnzhc (https://github.com/dfnzhc)
+ * @Date 2023/4/13
+ * @Brief 
+ */
+
+#pragma once
+
+#include <string_view>
+
+namespace @PROJECT_NAME@ {
+static constexpr std::string_view PROJECT_NAME = "@PROJECT_NAME@";
+static constexpr std::string_view PROJECT_VERSION = "@PROJECT_VERSION@";
+static constexpr int PROJECT_VERSION_MAJOR { @PROJECT_VERSION_MAJOR@ };
+static constexpr int PROJECT_VERSION_MINOR { @PROJECT_VERSION_MINOR@ };
+static constexpr int PROJECT_VERSION_PATCH { @PROJECT_VERSION_PATCH@ };
+
+static constexpr std::string_view @PROJECT_NAME_UPPERCASE@_DIR = "@PROJECT_WORK_DIR@";
+static constexpr std::string_view @PROJECT_NAME_UPPERCASE@_DATA_DIR = "@PROJECT_DATA_DIR@";
+
+}// namespace @PROJECT_NAME@
